@@ -1,3 +1,4 @@
+## V 1.0
 ## Admob
 google.com, pub-9160667516524393, DIRECT, f08c47fec0942fa0
 ## Meta
