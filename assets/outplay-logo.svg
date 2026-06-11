@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" role="img" aria-label="Outplay Games">
+  <rect width="700" height="250" fill="#080808"/>
+  <g transform="skewX(-10)">
+    <text x="62" y="150" fill="#fff" font-family="Arial Black, Arial, sans-serif" font-size="126" font-weight="900" letter-spacing="-11">Outplay</text>
+    <text x="443" y="208" fill="#fff" font-family="Arial, sans-serif" font-size="48" font-style="italic">Games</text>
+  </g>
+</svg>

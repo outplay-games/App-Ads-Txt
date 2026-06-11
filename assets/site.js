@@ -1,0 +1,3 @@
+const io=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add("visible")}),{threshold:.12});document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+const visual=document.querySelector("[data-tilt]"),card=document.querySelector(".feature-card");addEventListener("pointermove",e=>{if(!visual||innerWidth<800)return;const r=visual.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;card.style.transform=`translate(-50%,-50%) rotate(${2+x*4}deg) rotateX(${-y*5}deg) rotateY(${x*7}deg)`});
+addEventListener("pointerleave",()=>{if(card)card.style.transform=""});document.querySelector("#year").textContent=new Date().getFullYear();
